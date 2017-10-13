@@ -10,3 +10,11 @@ img.bord{
 .navbar{
 	background-color: #e3f2fd;
 }
+
+ol h2:hover{
+	color: grey;
+}
+ol{
+	margin:0;
+	padding: 0;
+}
