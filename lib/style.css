@@ -22,3 +22,90 @@ ol{
 .list{
 	margin: 2%
 }
+
+body{
+	background-image: url('../img/sw_bg2.jpeg');
+	 background-attachment:fixed;
+    background-repeat : no-repeat;
+    background-size: 100% auto;
+    /*background-size: cover;*/
+    background-position: top;
+    
+}
+
+
+.container-fluid{
+	/*margin-top : 50%;*/
+	
+	background-color: black;
+	
+}
+
+.row{
+	width: 100%;
+}
+
+.navbar-brand#yellow{
+	color: 	#EED302
+}
+
+#navbarNav a{
+	color: white
+}
+
+#navbarNav a:hover{
+	color:#EED302;
+}
+
+#logo{
+	margin-left: 34%;
+	margin-top:15%;
+	margin-bottom:15%;
+	height: 250px;
+}
+
+h1{
+	text-align:center;
+    padding-top:5%;
+    margin-bottom:5%;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 3%;
+    color: white;
+}
+
+
+hr.titre{
+	border:solid 1px;
+	color:#EED302;
+	width:30%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+
+.bg-dark{
+	background-color: black!important; 
+
+}
+
+h4{
+	color: white;
+	margin-bottom :0%;
+}
+li{
+	list-style: none;
+}
+
+
+ul#list{
+	text-align: center;
+}
+
+ul#list li{
+	border: solid 1px #EED302;
+	margin:1%;
+	border-radius: 10px;
+	padding:1%;
+}

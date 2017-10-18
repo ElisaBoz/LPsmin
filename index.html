@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
 	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./node_modules/bootstrap/js/dist/modal.js"></script>
-	<!-- <script type="text/javascript" src="./node_modules/flexslider/jquery.flexslider-min.js"></script> -->
+	<script type="text/javascript" src="./node_modules/flexslider/jquery.flexslider-min.js"></script>
 	<script type="text/javascript" src="./lib/script.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="./node_modules/flexslider/flexslider.css">
@@ -18,8 +18,8 @@
 <body>
 
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" >
-			<a class="navbar-brand" href="#">Mon site</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" >
+			<a class="navbar-brand" href="#" id="yellow">STAR WARS</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -42,75 +42,20 @@
 		</nav>
 	</header>
 
+
+<div class="row">
+	<img src="./img/sw_logo.png" class="im-responsive " id='logo' /> 
+
+</div>
+
 <div class="container-fluid">
-
-	<!-- Place somewhere in the <body> of your page -->
-	<!-- <div class="flexslider">
-		<ul class="slides">
-			<li>
-				<img src="./img/img1.jpg" class="im-responsive col-12"/>
-			</li>
-			<li>
-				<img src="./img/img2.jpg" class="im-responsive col-12"/>
-			</li>
-			<li>
-				<img src="./img/img3.jpg" class="im-responsive col-12"/>
-			</li>
-			<li>
-				<img src="./img/img4.jpg" class="im-responsive col-12"/>
-			</li>
-		</ul>
-	</div> -->
-
-	<!-- <div class="row">
-		<div class="col-sm-4">
-			<img src="./img/img2.jpg" class="im-responsive col-12 bord mon_img">
-			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-			
-		</div>
-
-		<div class="col-sm-4">
-			<img src="./img/img3.jpg" class="im-responsive col-12 bord mon_img">
-			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-			
-		</div>
-
-		<div class="col-sm-4">
-			<img src="./img/img4.jpg" class="im-responsive col-12 bord mon_img">
-			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
-			
-		</div>
-	</div> -->
-	<img src="./img/img1.jpg" class="im-responsive col-12"/>
+<h1 id="titreP"></h1>
+	<!-- <img src="./img/img1.jpg" class="im-responsive col-12"/> -->
 	<div class="row">
-		<div class="col-sm-4 list">
-			<img src="./img/img2.jpg" class="im-responsive col-12 bord mon_img">
+		<div class="col-12 list">
+			<!-- <img src="./img/img2.jpg" class="im-responsive col-12 bord mon_img"> -->
 
-				
-			<!-- <ol  data-toggle="modal" data-target="#modalNom" ></ol>
-
-			<div class="modal" id ="modalNom">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title"></h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<ul>
-							</ul>
-							
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
-			<ol></ol>
+			<ul id="list"></ul >
 			<div class="momodal"></div>
 
 
