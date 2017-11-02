@@ -99,11 +99,12 @@ li{
 }
 
 
-ul#list{
+ol#list{
 	text-align: center;
+	margin-left:9%;
 }
 
-ul#list li{
+ol#list li{
 	border: solid 1px #EED302;
 	margin:1%;
 	border-radius: 10px;

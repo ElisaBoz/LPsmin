@@ -8,6 +8,7 @@
 	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./node_modules/bootstrap/js/dist/modal.js"></script>
 	<script type="text/javascript" src="./node_modules/flexslider/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="./node_modules/tilt.js/src/tilt.jquery.js"></script>
 	<script type="text/javascript" src="./lib/script.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="./node_modules/flexslider/flexslider.css">
@@ -43,8 +44,8 @@
 	</header>
 
 
-<div class="row">
-	<img src="./img/sw_logo.png" class="im-responsive " id='logo' /> 
+<div class="row tilts js-tilt">
+	<img src="./img/sw_logo.png" class="im-responsive "  data-tilt data-tilt-glare="true" data-tilt-max="7" id='logo' /> 
 
 </div>
 
@@ -52,12 +53,19 @@
 <h1 id="titreP"></h1>
 	<div class="row">
 		<div class="col-12 list">
-			<ul id="list" class="row"></ul >
+			<ol id="list" class="row"></ol >
 			<div class="momodal"></div>
 		</div>
 	</div>
+		
+		<nav aria-label="">
+		  <ul class="pagination">
+		    <li class="page-item"><a class="page-link" href="" id="precedent">Précédent</a></li>
+		    <li class="page-item"><a class="page-link" href="" id="suivant">Suivant</a></li>
+		  </ul>
+		</nav>
 
-	<button class="page-link" id = "next"> Voir les 10 suivants</button>
+	<!-- <button class="page-link" id = "next"> Voir les 10 suivants</button> -->
 
 </div>
 </body>

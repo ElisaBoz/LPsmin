@@ -12,7 +12,8 @@
     "jquery": "^3.2.1",
     "parallax.js": "^0.1.0",
     "popper": "^1.0.0",
-    "popper.js": "^1.12.5"
+    "popper.js": "^1.12.5",
+    "tilt.js": "^1.2.0"
   },
   "repository": {
     "type": "git",
